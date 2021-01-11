@@ -21,4 +21,4 @@ $(call inherit-product, device/motorola/osprey/device.mk)
 PRODUCT_DEVICE := osprey
 PRODUCT_NAME := full_osprey
 
-$(call inherit-product-if-exists, vendor/motorola/osprey/osprey-vendor.mk)
+$(call inherit-product, vendor/motorola/osprey/osprey-vendor.mk)

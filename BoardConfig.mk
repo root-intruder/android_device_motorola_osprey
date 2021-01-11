@@ -16,7 +16,7 @@
 
 include device/motorola/msm8916-common/BoardConfigCommon.mk
 
--include vendor/motorola/osprey/BoardConfigVendor.mk
+include vendor/motorola/osprey/BoardConfigVendor.mk
 
 DEVICE_PATH := device/motorola/osprey
 
