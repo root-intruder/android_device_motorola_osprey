@@ -15,6 +15,9 @@
 
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_WIDTH := 720
